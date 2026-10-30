@@ -1,0 +1,13 @@
+# AWS / SSH private files
+*.pem
+*.key
+
+# Credentials
+.env
+.env.*
+credentials
+.aws/
+
+# OS files
+.DS_Store
+Thumbs.db
