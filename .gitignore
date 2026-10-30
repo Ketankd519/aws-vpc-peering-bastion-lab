@@ -1,6 +1,7 @@
 # AWS / SSH private files
 *.pem
 *.key
+*.ppk
 
 # Credentials
 .env
@@ -8,6 +9,14 @@
 credentials
 .aws/
 
+# Local SSH config / secrets
+.ssh/
+
 # OS files
 .DS_Store
 Thumbs.db
+
+# Editor / temporary files
+.vscode/
+.idea/
+*.log
